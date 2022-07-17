@@ -1,0 +1,77 @@
+.section4-title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section4Box {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.monitor {
+  background-image: url("/public/모니터.png");
+  width: 700px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.monitor > img {
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.monitor > .black-bg {
+  text-align: center;
+}
+.monitor > .black-bg > .white-bg > .white-bg-box>video {
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+.playButton {
+  color: red;
+  margin-bottom: 23%;
+  margin-left: -52%;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 100px;
+}
+.playButton:hover {
+  border: 1px solid white;
+}
+.portFolio {
+  width: 400px;
+  line-height: 25px;
+}
+.portFolio > p {
+  white-space: initial;
+}
+
+
+.white-bg-box{
+  width: 680px;
+  
+  margin: 0 auto;
+  font-family: initial;
+  line-height: 40px;
+}
+.white-bg-box>h2{
+  text-align: left;
+
+  white-space: initial;
+  font-family: initial;
+}
+.white-bg-box>p{
+  text-align: left;
+
+  white-space: initial;
+  font-family: initial;
+  margin-left: 20px;
+}

@@ -1,0 +1,57 @@
+.section1 {
+  background-color: #3b7cf3;
+  text-align: center;
+  height: 300px;
+  padding: 1px;
+  text-align: left;
+  padding-top: 250px;
+}
+.search {
+  display: flex;
+  background-color: white;
+  border-radius: 120px;
+  padding: 20px;
+  margin: 70px;
+  width: 800px;
+  height: 25%;
+  margin: 0 auto;
+}
+.search > img {
+  margin-top: -5px;
+}
+.searchIcon {
+  font-size: 40px;
+  color: white;
+  /* margin-left: 80px; */
+  margin-top: -3px;
+  background-color: gray;
+  border-radius: 100px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.searchIcon:hover {
+  padding: 21px;
+  background-color: rgb(92, 90, 90);
+}
+.search > p {
+  font-size: 40px;
+  font-weight: bold;
+  color: gray;
+  padding: 23px;
+  width: 800px;
+}
+
+.click {
+  padding-top: 40px;
+}
+
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink-effect 1s step-end infinite;
+}

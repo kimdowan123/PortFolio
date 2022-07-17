@@ -1,0 +1,14 @@
+footer {
+  margin-top: 80px;
+  height: 270px;
+  background-color: rgb(57, 56, 56);
+  text-align: center;
+}
+
+footer > a > img {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+}
